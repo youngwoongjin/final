@@ -46,7 +46,7 @@ const Detail = () => {
           <div className="m-8">
             <div className="text-4xl flex items-center">
               <div>{metadata.name}</div>
-              <div className="bg-main w-8 h-8 rounded-full flex justify-center items-center ml-2 text-gray-950">
+              <div className="bg-white w-8 h-8 rounded-full flex justify-center items-center ml-2 text-gray-950">
                 <FaChessRook size={18} />
               </div>
             </div>

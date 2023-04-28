@@ -6,7 +6,7 @@ const imgSrc = `https://olbm.mypinata.cloud/ipfs/Qma6p2MdD9NveE211KxYmsf9W6jyVFZ
 
 const Intro = ({ totalNft, mintedNft, myNft }) => {
   return (
-    <div className="bg-gradient-to-b from-transparent to-red-400 pt-10 ">
+    <div className="bg-gradient-to-b from-transparent to-sky-200 pt-10 ">
       <div className="max-w-screen-xl mx-auto">
         <div className="relative">
           <img
@@ -31,26 +31,26 @@ const Intro = ({ totalNft, mintedNft, myNft }) => {
         <div className="py-4 text-center flex">
           <div>
             <div className="font-bold">{totalNft}</div>
-            <div className="text-gray-300">총 NFT</div>
+            <div className="text-gray-500">총 NFT</div>
           </div>
           <div className="ml-4">
             <div className="font-bold">{mintedNft}</div>
-            <div className="text-gray-300">발행된 NFT</div>
+            <div className="text-gray-500">발행된 NFT</div>
           </div>
           <div className="ml-4">
             <div className="font-bold">{myNft}</div>
-            <div className="text-gray-300">나의 NFT</div>
+            <div className="text-gray-500">나의 NFT</div>
           </div>
           <div className="ml-4">
             <div className="font-bold">Mumbai</div>
-            <div className="text-gray-300">체인</div>
+            <div className="text-gray-500">체인</div>
           </div>
           <div className="ml-4">
             <div className="font-bold">Art</div>
-            <div className="text-gray-300">카테고리</div>
+            <div className="text-gray-500">카테고리</div>
           </div>
         </div>
-        <div className="mt-2 text-gray-300">
+        <div className="mt-2 text-gray-500">
           다덴부란(.env란 "environment"의 약어)은 소프트웨어 개발에서 자주
           사용되는 파일 형식 중 하나입니다. 이 파일은 소프트웨어 개발자들이
           프로젝트에서 사용되는 환경 변수(environment variable)를 저장하는 데
