@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { SiOpensea } from "react-icons/si";
 import { MdOutlineWallet } from "react-icons/md";
+import { IoPersonCircleOutline } from "react-icons/io5";
 
 const Header = ({ account, setAccount }) => {
   const onClickAccount = async () => {
@@ -29,7 +30,7 @@ const Header = ({ account, setAccount }) => {
         {account ? (
           <div className="flex items-center p-2 bg-white rounded-md ml-4">
             <div className=" w-6 h-6 rounded-full flex justify-center items-center">
-              <MdOutlineWallet />
+              <MdOutlineWallet size={20} />
             </div>
             <div className="ml-1">
               {account.substring(0, 4)}...
@@ -42,9 +43,12 @@ const Header = ({ account, setAccount }) => {
             onClick={onClickAccount}
           >
             <div className=" w-6 h-6 rounded-full flex justify-center items-center">
-              <MdOutlineWallet />
+              <MdOutlineWallet size={20} />
             </div>
             <div className="ml-1">Connect</div>
+            <div className=" w-6 h-6 rounded-full flex justify-center items-center">
+              <IoPersonCircleOutline size={20} />
+            </div>
           </button>
         )}
       </div>
